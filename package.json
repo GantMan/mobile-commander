@@ -1,0 +1,30 @@
+{
+  "name": "mobile-commander",
+  "version": "0.0.1",
+  "description": "A collection of useful React Native commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GantMan/mobile_command.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "command",
+    "line",
+    "cli",
+    "common",
+    "commands",
+    "mobile",
+    "commander"
+  ],
+  "author": "Gant Laborde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GantMan/mobile_command/issues"
+  },
+  "homepage": "https://github.com/GantMan/mobile_command#readme"
+}
