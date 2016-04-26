@@ -7,7 +7,6 @@ A collection of useful React Native commands
 * **clean** - Performs small cleanup for cache issues in React Native
 * **newclear** - Performs extreme cleanup (slow) for mega-cache issues in React Native
 * **tron/reactotron** - Runs local project's [reactotron](https://github.com/skellock/reactotron) UI
-* **shimmy** - Shakes android device
 * **alog** - Shows recent logs from React Native Android
 * **awhole** - Starts `adb logcat` to show a whole black hole of Android logs
 * **devices** - Show android devices
