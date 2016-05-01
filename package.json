@@ -1,6 +1,6 @@
 {
   "name": "mobile-commander",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A collection of useful React Native commands",
   "main": "index.js",
   "files": [
@@ -13,13 +13,18 @@
     "type": "git",
     "url": "git+ssh://git@github.com/GantMan/mobile_command.git"
   },
+  "preferGlobal": "true",
   "bin": {
     "newclear": "bin/newclear.sh",
     "lintme": "bin/lintme.sh",
     "runios": "bin/runios.sh",
     "rios": "bin/runios.sh",
     "runandroid": "bin/runandroid.sh",
-    "roid": "bin/runandroid.sh"
+    "roid": "bin/runandroid.sh",
+    "reactotron": "bin/reactotron.sh",
+    "tron": "bin/reactotron.sh",
+    "awhole": "bin/awhole.sh",
+    "alog": "bin/alog.sh"
   },
   "keywords": [
     "React",
