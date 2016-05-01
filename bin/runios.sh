@@ -1,3 +1,4 @@
 #!/bin/sh
 # run rn ios
-react-native run-ios
+#OLD -> react-native run-ios
+react-native run-ios --simulator "iPhone ${1:-6}"
