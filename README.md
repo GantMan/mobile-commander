@@ -18,7 +18,7 @@ Compiles and runs React-Native project for Android emulator
 * **alias** - `roid`
 
 ### :star: lintme
-Runs `standard` linter through `snazzy`
+Runs `standard` linter through `snazzy` - ALWAYS uses latest standard!
 
 ### :star: newclear
 Performs extreme cleanup (slow) for mega-cache issues in React Native

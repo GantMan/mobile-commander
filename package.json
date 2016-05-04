@@ -1,6 +1,6 @@
 {
   "name": "mobile-commander",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "A collection of useful React Native commands",
   "main": "index.js",
   "files": [
