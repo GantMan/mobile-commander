@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/GantMan/mobile_command.git"
+    "url": "git+ssh://git@github.com:GantMan/mobile-commander.git"
   },
   "preferGlobal": "true",
   "bin": {
