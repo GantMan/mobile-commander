@@ -10,6 +10,7 @@ rm -rf ios/build/ModuleCache/*
 # android
 rm -rf android/app/build
 rm -rf $HOME/.gradle/caches/
+cd android/ && ./gradlew clean && cd ..
 
 # javascript
 rm -rf node_modules/
