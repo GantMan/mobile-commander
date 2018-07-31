@@ -44,5 +44,8 @@
   "bugs": {
     "url": "https://github.com/GantMan/mobile_command/issues"
   },
-  "homepage": "https://github.com/GantMan/mobile_command#readme"
+  "homepage": "https://github.com/GantMan/mobile_command#readme",
+  "dependencies": {
+    "npm": "^6.2.0"
+  }
 }
