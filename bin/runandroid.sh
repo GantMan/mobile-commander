@@ -1,3 +1,3 @@
 #!/bin/sh
-# run rn android
+# runs rn android
 react-native run-android

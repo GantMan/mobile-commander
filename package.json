@@ -1,6 +1,6 @@
 {
   "name": "mobile-commander",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "A collection of useful React Native commands",
   "main": "index.js",
   "files": [
@@ -16,7 +16,7 @@
   "preferGlobal": "true",
   "bin": {
     "newclear": "bin/newclear.sh",
-    "lintme": "bin/lintme.sh",
+    "lintstandard": "bin/lintstandard.sh",
     "runios": "bin/runios.sh",
     "rios": "bin/runios.sh",
     "runandroid": "bin/runandroid.sh",
@@ -24,7 +24,9 @@
     "reactotron": "bin/reactotron.sh",
     "tron": "bin/reactotron.sh",
     "awhole": "bin/awhole.sh",
-    "alog": "bin/alog.sh"
+    "alog": "bin/alog.sh",
+    "alist": "bin/alist.sh",
+    "ashake": "bin/ashake.sh"
   },
   "keywords": [
     "React",

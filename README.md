@@ -11,13 +11,13 @@ npm i -g mobile-commander
 ### :star: runios
 Compiles and runs  React-Native project an iOS Simulator of your choice
 * **alias** - `rios`
-* **params** - iPhone version (_default 6_), _e.g._ `runios 5s`
+* **params** - iPhone version (_default 7_), _e.g._ `runios 5s`
 
 ### :star: runandroid
 Compiles and runs React-Native project for Android emulator
 * **alias** - `roid`
 
-### :star: lintme
+### :star: lintstandard
 Runs `standard` linter through `snazzy` - ALWAYS uses latest standard!
 
 ### :star: newclear
@@ -35,12 +35,17 @@ Starts `adb logcat` to show a whole black hole of Android logs
 Shows logs specifically from React Native Android
 * **stands for** - android log
 
-## Coming Soon / Wishlist
+### :star: ashake
+Shakes Android device so dev menu shows
+* **stands for** - android shake
+
+### :star: alist
+List all Android emulators
+* **stands for** - android list
+
+## Wishlist
 * Command: **devices** - Show android devices
-* Command: **rnhu** - Build React Native android project and upload to hockeyapp - alias `rockey`
-  * stands for - react native hockey upload
-  * alias - `rockey`
 * Command: **reset-sim** - Resets iOS simulator
 * Feature: List help for all commands installed
 * Feature: Adjust **runios** to also take ipad as a param
-* Feature: Adjust **lintme** to warn the user if they don't have `standard` or `snazzy`
+* Support windows
