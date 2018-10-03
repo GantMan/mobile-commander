@@ -36,5 +36,9 @@ else
   npm i
 fi
 
+# React Native cache
+rm -rf ~/.rncache
+rm -rf /tmp/metro-bundler-cache-*
+
 # clear react temp files (keep this last clean step)
 rm -rf $TMPDIR/react-*
