@@ -8,15 +8,6 @@ watchman watch-del-all
 rm -rf ios/build/
 rm -rf ~/Library/Developer/Xcode/DerivedData
 
-# Cocoapods
-ls ios/Pods
-if [ $? -eq 0 ]
-then
-  rm -rf "${HOME}/Library/Caches/CocoaPods"
-  rm -rf ios/Pods
-  cd ios/ && pod install && cd -
-fi
-
 # android
 rm -rf android/app/build
 rm -rf $HOME/.gradle/caches/
@@ -34,6 +25,15 @@ then
 else
   npm cache clean
   npm i
+fi
+
+# Cocoapods
+ls ios/Pods
+if [ $? -eq 0 ]
+then
+  rm -rf "${HOME}/Library/Caches/CocoaPods"
+  rm -rf ios/Pods
+  cd ios/ && pod install && cd -
 fi
 
 # React Native cache
