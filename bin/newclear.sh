@@ -40,5 +40,9 @@ fi
 rm -rf ~/.rncache
 rm -rf /tmp/metro-bundler-cache-*
 
+# https://docs.expo.dev/troubleshooting/react-native-version-mismatch/
+rm -rf $TMPDIR/haste-map-*
+rm -rf $TMPDIR/metro-cache
+
 # clear react temp files (keep this last clean step)
 rm -rf $TMPDIR/react-*
